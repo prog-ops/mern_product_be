@@ -16,6 +16,6 @@ app.use(FileUpload())
 app.use(express.static("public")) // Make image on backend can be opened in browser by its url
 app.use(ProdukRoute)
 
-app.listen(3001, () => {
+app.listen(port, () => {
   console.log('Server listening on port 3001');
 });
